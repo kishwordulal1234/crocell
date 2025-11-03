@@ -1,7 +1,7 @@
 # crocell
 
 ```
-pyinstaller --onefile --noconsole --name Crocell --icon=icon.ico --version-file=version.txt --hidden-import win32crypt --hidden-import Crypto.Cipher.AES --collect-all pycryptodome --collect-all pywin32 test-backup.py
+pyinstaller --onefile --noconsole --name Crocell --icon=icon.ico --version-file=version.txt --hidden-import win32crypt --hidden-import Crypto.Cipher.AES --collect-all pycryptodome --collect-all pywin32 crocell.py
 
 ```
 # py installler build code 
